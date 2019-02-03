@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d833c3c-06f0-40b9-bb8a-b93560cea02d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/booking_controller.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <folding>
+                <element signature="e#21#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="G:\bin\go" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ticket.go" />
+        <option value="$PROJECT_DIR$/handler_test.go" />
+        <option value="$PROJECT_DIR$/database.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/app/models/ticket.go" />
+        <option value="$PROJECT_DIR$/app/database.go" />
+        <option value="$PROJECT_DIR$/app/app.go" />
+        <option value="$PROJECT_DIR$/tests/handler_test.go" />
+        <option value="$PROJECT_DIR$/lib/database.go" />
+        <option value="$PROJECT_DIR$/app/controllers/booking_controller.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1300" />
+    <option name="height" value="1400" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go-mobiclix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-mobiclix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-mobiclix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-mobiclix" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-mobiclix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-mobiclix" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-mobiclix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-mobiclix" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\dev\go-mobiclix\lib" />
+      <recent name="G:\dev\go-mobiclix\tests" />
+      <recent name="G:\dev\go-mobiclix\app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.Test1kRequest in go-mobiclix/tests">
+    <configuration name="go build go-mobiclix" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="go-mobiclix" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="go-mobiclix" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test1kRequest in go-mobiclix/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-mobiclix" />
+      <working_directory value="$PROJECT_DIR$/tests" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-mobiclix/tests" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test1kRequest$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test go-mobiclix/tests" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+      <module name="go-mobiclix" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-mobiclix/tests" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build go-mobiclix" />
+      <item itemvalue="Go Test.go test go-mobiclix/tests" />
+      <item itemvalue="Go Test.Test1kRequest in go-mobiclix/tests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.Test1kRequest in go-mobiclix/tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 17h 47m 22s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_go-mobiclix_tests - 2019.02.03 at 18h 04m 06s.xml">
+      <configuration name="go test go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 18h 16m 44s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 18h 39m 31s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 18h 41m 53s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 18h 56m 32s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 19h 02m 17s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 19h 22m 45s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 19h 29m 36s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 19h 30m 05s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12326733" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32438016" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997934" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.328125" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/database.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/bin/go/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="1962" column="6" selection-start-line="1962" selection-start-column="6" selection-end-line="1962" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/handler_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticket.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ticket.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/booking_controller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="e#21#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
