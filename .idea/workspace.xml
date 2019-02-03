@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d833c3c-06f0-40b9-bb8a-b93560cea02d" name="Default Changelist" comment="" />
+    <list default="true" id="1d833c3c-06f0-40b9-bb8a-b93560cea02d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/booking_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/booking_controller.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/booking_controller.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-              <folding>
-                <element signature="e#21#95#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -32,6 +32,9 @@
     </option>
   </component>
   <component name="GOROOT" path="G:\bin\go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -53,6 +56,7 @@
     <option name="width" value="1300" />
     <option name="height" value="1400" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -164,34 +168,34 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 17h 47m 22s.xml">
-      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_go-mobiclix_tests - 2019.02.03 at 18h 04m 06s.xml">
-      <configuration name="go test go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 18h 16m 44s.xml">
-      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 18h 39m 31s.xml">
-      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 18h 41m 53s.xml">
-      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 18h 56m 32s.xml">
-      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 19h 02m 17s.xml">
-      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 19h 22m 45s.xml">
-      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 19h 29m 36s.xml">
       <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 19h 30m 05s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 20h 25m 58s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 20h 27m 00s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 20h 29m 31s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 20h 29m 53s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 20h 30m 43s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 20h 31m 35s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 20h 42m 40s.xml">
+      <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test1kRequest_in_go-mobiclix_tests - 2019.02.03 at 20h 44m 11s.xml">
       <configuration name="Test1kRequest in go-mobiclix/tests" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -205,13 +209,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32438016" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997934" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.328125" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.327818" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -221,14 +225,37 @@
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/app/controllers/booking_controller.go</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/app/controllers/booking_controller.go</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/app/controllers/booking_controller.go</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/app/controllers/booking_controller.go</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/go.mod">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/database.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -250,13 +277,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ticket.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ticket.go" />
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -278,13 +299,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/booking_controller.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="e#21#95#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -10,24 +10,27 @@ import (
 
 var (
 	mutex sync.Mutex
-	ids = make([]uint, 0)
+	ids   = make([]uint, 0)
 )
 
 func BookingHandler(w http.ResponseWriter, _ *http.Request) {
 
 	tx := lib.DB.Begin()
 	var ticket models.Ticket
-	tx.Not(ids).First(&ticket, "is_booked = ?", false)
+
+	if err := tx.Raw(`SELECT * FROM tickets WHERE tickets.is_booked = FALSE LIMIT 1 for update`).Scan(&ticket).Error; err != nil {
+		tx.Rollback()
+		log.Fatal(err)
+		w.WriteHeader(http.StatusNotAcceptable)
+		return
+	}
+	//tx.Not(ids).First(&ticket, "is_booked = ?", false)
 
 	if ticket.ID == 0 {
 		tx.Rollback()
 		w.WriteHeader(http.StatusNotAcceptable)
 		return
 	}
-
-	mutex.Lock()
-	ids = append(ids, ticket.ID)
-	mutex.Unlock()
 
 	ticket.IsBooked = true
 
@@ -43,10 +46,5 @@ func BookingHandler(w http.ResponseWriter, _ *http.Request) {
 		return
 	}
 
-	mutex.Lock()
-	delete(ids, ticket.ID)
-	mutex.Unlock()
-
 	w.WriteHeader(http.StatusOK)
 }
-
