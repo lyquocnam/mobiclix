@@ -2,6 +2,7 @@ package lib
 
 import (
 	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"go-mobiclix/app/models"
 )
@@ -11,12 +12,13 @@ var DB *gorm.DB
 func ConnectDatabase() {
 	var err error
 	DB, err = gorm.Open("postgres", `host=localhost port=5433 dbname=mobiclix user=postgres password=postgress sslmode=disable`)
+	//DB, err = gorm.Open("mysql", "root:root@/mobiclix?charset=utf8&parseTime=True&loc=Local")
+
 	if err != nil {
 		panic(err)
 	}
-
+	// DB.LogMode(true)
 	DB.DB().SetMaxIdleConns(0)
-
 	migrate()
 	seed()
 }
@@ -38,7 +40,7 @@ func seed() {
 	}
 
 	tx := DB.Begin()
-	for i:= 0; i < 1000; i++ {
+	for i := 0; i < 1000; i++ {
 		if err := tx.Create(&models.Ticket{}).Error; err != nil {
 			panic(err)
 		}

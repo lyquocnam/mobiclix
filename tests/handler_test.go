@@ -2,6 +2,7 @@ package tests
 
 import (
 	"github.com/stretchr/testify/assert"
+	"go-mobiclix/app"
 	"go-mobiclix/app/controllers"
 	"go-mobiclix/lib"
 	"net/http"
@@ -16,12 +17,15 @@ func Test1kRequest(t *testing.T) {
 	req, _ := http.NewRequest("POST", "/booking", nil)
 	rec := httptest.NewRecorder()
 
-	handler := http.HandlerFunc(controllers.BookingHandler)
+	controllers.Jobs = make(chan *controllers.Job, 100)
+	go app.Booking()
+
+	handler := http.HandlerFunc(controllers.BookingHandlerV2)
 
 	requests := 1000
 	wg := sync.WaitGroup{}
-	wg.Add(requests)
 	for i := 0; i < requests; i++ {
+		wg.Add(1)
 		go func() {
 			defer wg.Done()
 			handler.ServeHTTP(rec, req)
