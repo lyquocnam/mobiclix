@@ -1,5 +1,5 @@
 // Original code with Dispatcher
-package main
+package demo
 
 import (
 	_ "expvar"
@@ -102,7 +102,6 @@ func (d *Dispatcher) dispatch() {
 }
 
 func requestHandler(w http.ResponseWriter, r *http.Request, jobQueue chan Job) {
-	// Make sure we can only be called with an HTTP POST request.
 	if r.Method != "POST" {
 		w.Header().Set("Allow", "POST")
 		w.WriteHeader(http.StatusMethodNotAllowed)
@@ -133,7 +132,15 @@ func requestHandler(w http.ResponseWriter, r *http.Request, jobQueue chan Job) {
 	job := Job{Name: name, Delay: delay}
 	jobQueue <- job
 
+	//for {
+	//	// lay ket qua tu job ra
+	//	// xet ket qua ok ?
+	//	// ok -> write ket qua
+	//	// o ok -> write loi
+	//	// -> return khoi ham
+	//}
 	// Render success.
+
 	w.WriteHeader(http.StatusCreated)
 }
 
